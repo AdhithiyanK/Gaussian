@@ -17,8 +17,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 7.Use back substitution method to find the value of the variables and print it
 8.End the program.
 ## Program:
-```
-/*
+```python
 Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: adhithiyan.k
 RegisterNumber: 22001999
@@ -46,7 +45,6 @@ for i in range(n-2,-1,-1):
     x[i]=x[i]/a[i][i]
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
-*/
 ```
 
 ## Output:
